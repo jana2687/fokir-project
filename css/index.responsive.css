@@ -1,0 +1,297 @@
+@media (max-width: 1300px) {
+    .title h2 {
+        font-size: 30px;
+    }
+
+    header .content h1 {
+        font-size: 40px;
+    }
+
+    header .content h4 {
+        font-size: 25px;
+    }
+
+    header .content p {
+        font-size: 15px;
+    }
+
+    nav .container .logo {
+        width: 22%
+    }
+
+    nav .container .links ul {
+        left: 50%;
+        top: 90px;
+        position: fixed;
+        flex-direction: column;
+        background-color: #333;
+        width: 90%;
+        text-align: center;
+        transform: translateX(-50%);
+        justify-content: space-around;
+        border-radius: 10px;
+        padding: 0;
+        height: 0px;
+        overflow: hidden;
+        transition-duration: 1s;
+    }
+
+    nav .container .links .burger:focus+ul {
+        height: 270px;
+        padding: 20px 10px;
+    }
+
+    nav .container .links .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50PX;
+        height: 40px;
+        border: 1.5px solid var(--main-color);
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    nav .container .links .burger span {
+        width: 50%;
+        display: block;
+        background-color: var(--main-color);
+        height: 2px;
+
+    }
+
+    nav .container .links ul li:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 17px;
+    }
+
+    #About .container {
+        flex-wrap: wrap;
+        padding: 40px 0px;
+    }
+
+    #About .container>div[class*="part"] {
+        flex-basis: 100%;
+    }
+
+    #About .container .part1 .frame {
+        width: 280px;
+        margin-bottom: 50px;
+    }
+
+    #About .container .part2 .info .col {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    #services .content .card {
+        flex-basis: 85%;
+        margin: auto;
+    }
+
+    #services .content .card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    #portfolio .content .card {
+        width: 280px;
+        margin: auto;
+    }
+
+
+    #portfolio .content .card .item a {
+        font-size: 11px;
+    }
+
+    #Blog .container {
+        flex-wrap: wrap;
+    }
+
+    #Blog .container .col .item {
+        max-width: 280px;
+        margin: auto;
+
+    }
+
+    #Blog .container .col:not(:last-child) .item {
+        margin-bottom: 30px;
+    }
+
+    #contact_us .container .content form button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header .content h1 {
+        font-size: 60px;
+    }
+
+    header .content h4 {
+        font-size: 30px;
+    }
+
+    header .content p {
+        font-size: 18px;
+    }
+
+    nav .container .links ul {
+        top: 83px;
+    }
+
+    nav .container .logo {
+        width: 17%
+    }
+
+    #Blog .container {
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav .container .logo {
+        width: 13%
+    }
+
+    nav .container .links ul {
+        top: 95px;
+    }
+
+    header .content h1 {
+        font-size: 70px;
+    }
+
+    header .content h4 {
+        font-size: 35px;
+    }
+
+    header .content p {
+        font-size: 20px;
+    }
+
+
+
+    #About .container .part2 .info .col {
+        flex-basis: 50%;
+    }
+
+    #services .container .title h2 {
+        font-size: 40px;
+    }
+
+    #services .content .card {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+    #portfolio .content .card {
+        width: 50%;
+    }
+
+
+    #Blog .container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 90%;
+        gap: 20px;
+
+    }
+
+    #Blog .container .col {
+        width: 50%;
+
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    nav .container .logo {
+        width: 10%
+    }
+
+    #About .container>div[class*="part"] {
+        flex-basis: 50%;
+    }
+
+    #About .container .part1 .frame {
+        width: 250px;
+    }
+
+    #About .container .part2 p {
+        font-size: 14px;
+    }
+
+    #About .container .part2 .info .col .item h5 {
+        font-size: 12px;
+    }
+
+    #About .container .part2 .info .col .item p {
+        font-size: 12px;
+    }
+
+    #Blog .container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 78%;
+        gap: 103px;
+
+    }
+
+    #Blog .container .col {
+        width: 50%;
+
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header .content h1 {
+        font-size: 70px;
+    }
+
+    header .content h4 {
+        font-size: 35px;
+    }
+
+    header .content p {
+        font-size: 20px;
+    }
+
+    nav .container .logo {
+        width: 9%
+    }
+
+    #services .content .card {
+        flex-basis: 25%;
+    }
+
+    #services .content .card .item {
+        padding: 15px 15px;
+    }
+
+    #services .content .card .item p {
+        font-size: 14px;
+    }
+
+    #portfolio .content .card {
+        width: calc(100%/3);
+    }
+
+    #Blog .container {
+        width: 90%;
+        gap: 0px;
+    }
+
+    #Blog .container .col {
+        flex-basis: calc(100%/3);
+    }
+
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}

@@ -1,0 +1,60 @@
+@keyframes Animate-1{
+    0% {
+        top: -25%;
+        opacity: 0;
+    }
+    15% {
+        opacity: 1; 
+    }
+   
+    50% {
+        top: 50%;
+        opacity: 1; 
+    }
+    80% {
+        top: 50%;
+        opacity: 0; }
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+
+}
+
+@keyframes Animate-2{
+    0%{
+        content:"|"
+    }
+    10%{
+        content:"d|";
+
+    }
+    20%{
+        content:"de|";
+    }
+    30%{
+        content:"dev|";
+    }
+    40%{
+        content:"deve|";
+    }
+    50%{
+        content:"devel|";
+    }
+    60%{
+        content:"develo|";
+    }
+    70%{
+        content:"develop|";
+    }
+    80%{
+        content:"developer|";
+    }
+    90%{
+        content:"developer|";
+    }
+    100%{
+        content:"developer|";
+    }
+   
+}
