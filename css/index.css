@@ -162,19 +162,19 @@ header a.shape::before {
 /*               About         */
 
 
-#About .container {
+#about .container {
     display: flex;
 
 }
 
 /*             part1         */
 
-#About .container .part1 {
+#about .container .part1 {
 
     flex-basis: 50%;
 }
 
-#About .container .part1 .frame {
+#about .container .part1 .frame {
     border: 4px solid var(--main-color);
     border-radius: 10px;
     width: 400px;
@@ -183,19 +183,19 @@ header a.shape::before {
 
 }
 
-#About .container .part1 .frame .image {
+#about .container .part1 .frame .image {
     position: relative;
     transform: translate(20px, 20px);
     border-radius: 10px;
     overflow: hidden;
 }
 
-#About .container .part1 .frame .image img {
+#about .container .part1 .frame .image img {
     display: block;
     height: 100%;
 }
 
-#About .container .part1 .frame .image .layout {
+#about .container .part1 .frame .image .layout {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0;
@@ -210,21 +210,21 @@ header a.shape::before {
     border-radius: 10px;
 }
 
-#About .container .part1 .frame .image:hover .layout {
+#about .container .part1 .frame .image:hover .layout {
     transform: translateY(0);
 }
 
-#About .container .part1 .frame .image .layout ul {
+#about .container .part1 .frame .image .layout ul {
     display: flex;
     list-style: none;
 }
 
-#About .container .part1 .frame .image .layout ul li {
+#about .container .part1 .frame .image .layout ul li {
     transform: translateY(-10px);
     opacity: 0;
 }
 
-#About .container .part1 .frame .image:hover .layout ul li {
+#about .container .part1 .frame .image:hover .layout ul li {
     opacity: 1;
     transform: translateY(0);
     transition-duration: 1s;
@@ -232,25 +232,25 @@ header a.shape::before {
 
 }
 
-#About .container .part1 .frame .image .layout ul li:nth-of-type(2) {
+#about .container .part1 .frame .image .layout ul li:nth-of-type(2) {
     transition-delay: 1.2s;
 }
 
-#About .container .part1 .frame .image .layout ul li:nth-of-type(3) {
+#about .container .part1 .frame .image .layout ul li:nth-of-type(3) {
     transition-delay: 1.4s;
 }
 
-#About .container .part1 .frame .image .layout ul li:nth-of-type(4) {
+#about .container .part1 .frame .image .layout ul li:nth-of-type(4) {
     transition-delay: 1.6s;
 }
 
 
 
-#About .container .part1 .frame .image .layout ul li:not(:last-child) {
+#about .container .part1 .frame .image .layout ul li:not(:last-child) {
     margin-right: 20px;
 }
 
-#About .container .part1 .frame .image .layout ul li a {
+#about .container .part1 .frame .image .layout ul li a {
     width: 35px;
     height: 35px;
     display: flex;
@@ -262,76 +262,76 @@ header a.shape::before {
 }
 
 
-#About .container .part1 a i[class*="facebook"] {
+#about .container .part1 a i[class*="facebook"] {
     color: #1877f2;
 }
 
-#About .container .part1 a i[class*="instagram"] {
+#about .container .part1 a i[class*="instagram"] {
     color: #e4405f;
 }
 
-#About .container .part1 a i[class*="twitter"] {
+#about .container .part1 a i[class*="twitter"] {
     color: #1Da1f2;
 }
 
 
 
-#About .container .part1 a i[class*="github"] {
+#about .container .part1 a i[class*="github"] {
     color: #131418;
 }
 
 /*                   part2            */
 
-#About .container .part2 {
+#about .container .part2 {
     flex-basis: 50%;
     color: #fff;
 }
 
-#About .container .part2>*:not(:last-child) {
+#about .container .part2>*:not(:last-child) {
     margin-bottom: 17px;
 }
 
-#About .container .part2 h2 {
+#about .container .part2 h2 {
     font-size: 30px;
     border-left: 4px solid var(--main-color);
     padding-left: 10px;
     font-weight: 600;
 }
 
-#About .container .part2 p {
+#about .container .part2 p {
     line-height: 25px;
 
 }
 
-#About .container .part2 hr {
+#about .container .part2 hr {
     border-style: dashed;
     border-color: #fff;
 }
 
 
-#About .container .part2 .info {
+#about .container .part2 .info {
     display: flex;
     flex-wrap: wrap;
 }
 
-#About .container .part2 .info .col {
+#about .container .part2 .info .col {
     flex-basis: 50%;
 }
 
-#About .container .part2 .info .col:not(:last-child, :nth-of-type(5)) {
+#about .container .part2 .info .col:not(:last-child, :nth-of-type(5)) {
     margin-bottom: 10px;
 }
 
-#About .container .part2 .info .col .item {
+#about .container .part2 .info .col .item {
     display: flex;
     align-items: center;
 }
 
-#About .container .part2 .info .col .item h5 {
+#about .container .part2 .info .col .item h5 {
     margin-right: 5px;
 }
 
-#About .container .part2 button {
+#about .container .part2 button {
     background-color: transparent;
     border: 1px solid var(--main-color);
     padding: 10px 15px;
@@ -340,11 +340,11 @@ header a.shape::before {
     transition-duration: 0.5s;
 }
 
-#About .container .part2 button:first-child {
+#about .container .part2 button:first-child {
     margin-right: 10px;
 }
 
-#About .container .part2 button:hover {
+#about .container .part2 button:hover {
     color: #fff;
     background-color: var(--main-color);
     cursor: pointer;
@@ -471,7 +471,6 @@ header a.shape::before {
     border-radius: 15px;
     text-decoration: none;
     transform: translateX(-50%);
-    transition-duration: 1s;
 }
 
 
@@ -481,57 +480,57 @@ header a.shape::before {
     transition-duration: 1s;
 }
 
-
-
-
-
-#Blog .container {
+/*                         blog            */
+#blog .container {
     display: flex;
 }
 
 
-#Blog .container .col {
+#blog .container .col {
     flex-basis: calc(100%/3);
 }
 
-#Blog .container .col head {
-    height: 300px
+#blog .container .col .head {
+    height: 200px;
+    overflow: hidden;
 }
 
-#Blog .container .col iframe {
+#blog .container .col iframe {
     width: 100%;
     height: 100%;
 }
 
-#Blog .container .col img {
+#blog .container .col img {
     height: 100%;
     display: block;
+    height: 100%;
+    object-fit: cover;
 }
 
-#Blog .container .col .item {
+#blog .container .col .item {
     border: 1px solid var(--main-color);
     border-radius: 10px;
     overflow: hidden;
     width: 300px;
     margin: auto;
-
+    height: 100%;
 }
 
-#Blog .container .col .item .body {
+#blog .container .col .item .body {
     padding: 22px;
 
 }
 
-#Blog .container .col .item .body p {
+#blog .container .col .item .body p {
     line-height: 1.6;
 }
 
-#Blog .container .col .item .body>*:not(:last-child) {
+#blog .container .col .item .body>*:not(:last-child) {
     margin-bottom: 15px;
 }
 
 
-#Blog .container .col .item .body button {
+#blog .container .col .item .body button {
     padding: 10px 20px;
     background-color: transparent;
     border: 1px solid var(--main-color);
@@ -541,27 +540,22 @@ header a.shape::before {
     transition-duration: 0.5s;
 }
 
-#Blog .container .col .item .body button:hover {
+#blog .container .col .item .body button:hover {
     background-color: var(--main-color);
     color: #fff;
 }
 
-#Blog .container .col .item .body button i {
+#blog .container .col .item .body button i {
     transition-duration: 0.5s;
 }
 
 
 
-#Blog .container .col .item .body button:hover i {
+#blog .container .col .item .body button:hover i {
     margin-left: 5px;
 }
 
-
 /* <!--             Contact-us              */
-
-
-
-
 #contact_us .container .content {
     background-color: transparent;
     padding: 20px;
@@ -569,23 +563,29 @@ header a.shape::before {
     margin: 0 auto;
 }
 
-
 #contact_us .container .content form {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-
 #contact_us .container .content form .input {
     width: 100%;
 }
-
 
 #contact_us .container .content form .input:nth-child(1),
 #contact_us .container .content form .input:nth-child(2) {
     flex: 1;
     min-width: 250px;
+}
+
+#contact_us .container .content form .input:nth-child(3),
+#contact_us .container .content form .input:nth-child(4) {
+    min-width: 250px;
+}
+
+#contact_us .container .content form .input ::placeholder {
+    color: #fff;
 }
 
 #contact_us .container .content form input,
@@ -594,18 +594,23 @@ header a.shape::before {
     background-color: transparent;
     border: 1.5px solid var(--main-color);
     border-radius: 12px;
-    padding: 6px;
+    padding: 9px;
     color: white;
     font-size: 16px;
     box-sizing: border-box;
 }
 
-#contact_us .container .content form textarea {
-    height: 200px;
+#contact_us .container .content form input:focus,
+#contact_us .container .content form textarea:focus {
+    outline: none;
+    border-color: rgb(255, 48, 91);
+    box-shadow: rgba(255, 48, 91, 0.09) 0px 2px 1px, rgba(255, 48, 91, 0.09) 0px 4px 2px, rgba(255, 48, 91, 0.09) 0px 8px 4px, rgba(255, 48, 91, 0.09) 0px 16px 8px, rgba(255, 48, 91, 0.09) 0px 32px 16px;
 }
 
-
-
+#contact_us .container .content form textarea {
+    height: 200px;
+    resize: none;
+}
 
 #contact_us .container .content form button {
     background-color: transparent;
@@ -615,10 +620,23 @@ header a.shape::before {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    min-width: 250px;
 }
-
 
 #contact_us .container .content form button:hover {
     background-color: var(--main-color);
     color: white;
+}
+
+/*                footer         */
+footer {
+    background-color: #333333;
+    padding: 17px 0px;
+
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+
 }

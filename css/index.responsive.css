@@ -30,7 +30,7 @@
         transform: translateX(-50%);
         justify-content: space-around;
         border-radius: 10px;
-        padding: 0;
+        padding-block: 0;
         height: 0px;
         overflow: hidden;
         transition-duration: 1s;
@@ -66,21 +66,21 @@
         margin-bottom: 17px;
     }
 
-    #About .container {
+    #about .container {
         flex-wrap: wrap;
         padding: 40px 0px;
     }
 
-    #About .container>div[class*="part"] {
+    #about .container>div[class*="part"] {
         flex-basis: 100%;
     }
 
-    #About .container .part1 .frame {
+    #about .container .part1 .frame {
         width: 280px;
         margin-bottom: 50px;
     }
 
-    #About .container .part2 .info .col {
+    #about .container .part2 .info .col {
         flex-basis: 100%;
         margin-bottom: 10px;
     }
@@ -104,18 +104,17 @@
         font-size: 11px;
     }
 
-    #Blog .container {
+    #blog .container {
         flex-wrap: wrap;
     }
 
-    #Blog .container .col .item {
-        max-width: 280px;
-        margin: auto;
-
+    #blog .container .col {
+        margin-bottom: 20px;
     }
 
-    #Blog .container .col:not(:last-child) .item {
-        margin-bottom: 30px;
+    #blog .container .col .item {
+        max-width: 280px;
+        margin: auto;
     }
 
     #contact_us .container .content form button {
@@ -144,7 +143,7 @@
         width: 17%
     }
 
-    #Blog .container {
+    #blog .container {
         justify-content: center;
         align-items: center;
 
@@ -174,7 +173,7 @@
 
 
 
-    #About .container .part2 .info .col {
+    #about .container .part2 .info .col {
         flex-basis: 50%;
     }
 
@@ -192,7 +191,7 @@
     }
 
 
-    #Blog .container {
+    #blog .container {
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 90%;
@@ -200,7 +199,7 @@
 
     }
 
-    #Blog .container .col {
+    #blog .container .col {
         width: 50%;
 
     }
@@ -213,27 +212,27 @@
         width: 10%
     }
 
-    #About .container>div[class*="part"] {
+    #about .container>div[class*="part"] {
         flex-basis: 50%;
     }
 
-    #About .container .part1 .frame {
+    #about .container .part1 .frame {
         width: 250px;
     }
 
-    #About .container .part2 p {
+    #about .container .part2 p {
         font-size: 14px;
     }
 
-    #About .container .part2 .info .col .item h5 {
+    #about .container .part2 .info .col .item h5 {
         font-size: 12px;
     }
 
-    #About .container .part2 .info .col .item p {
+    #about .container .part2 .info .col .item p {
         font-size: 12px;
     }
 
-    #Blog .container {
+    #blog .container {
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 78%;
@@ -241,7 +240,7 @@
 
     }
 
-    #Blog .container .col {
+    #blog .container .col {
         width: 50%;
 
     }
@@ -282,12 +281,12 @@
         width: calc(100%/3);
     }
 
-    #Blog .container {
+    #blog .container {
         width: 90%;
         gap: 0px;
     }
 
-    #Blog .container .col {
+    #blog .container .col {
         flex-basis: calc(100%/3);
     }
 
